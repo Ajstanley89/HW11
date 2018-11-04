@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Summary</title>
+  <!-- Bootstrap stylesheet -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body class='bg-dark'>
+    <!-- Nav Bar-->
+   <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Know Your Music</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!--'ml-auto' puts the list items on the right-->
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item  active">
+                        <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <!--Droppdown Link to Plots-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="EngergyVsValence.html">Engergy vs Valence</a>
+                        <a class="dropdown-item" href="DanceabilityVsTempo.html">Danceability vs Tempo</a>
+                        <a class="dropdown-item" href="ValenceByGenre.html">Valence by Genre</a>
+                        <a class="dropdown-item" href="FurtherExploration.html">Further Exploration</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+   </div>
+
+   <!--High-level sumamry info-->
+   <div class='container bg-white'>
+       <div class='row'>
+           <div class='col-md'>
+               <h2 class="Display-4">Visualizations</h2>
+               <hr>
+           </div>
+       </div>
+       <div class='row'>
+            <!--Visualizations section-->
+            <div class='col-md'>
+                <div class="thumbnail">
+                    <!-- Place the anchor tag here to cover both your caption and image -->
+                    <a href="EngergyVsValence.html" class="card-link">
+                        <img src="Project_Images/Energy vs Valence.png" alt="..." class="img-thumbnail">
+                    </a>
+                </div>
+                <br>
+            </div>
+            <div class='col-md'>
+                <div class="thumbnail">
+                    <a href="DanceabilityVsTempo.html" class="card-link">
+                        <img src="Project_Images/Danceability vs Tempo.png" alt="..." class="img-thumbnail">
+                    </a>
+                </div>
+                <br>
+            </div>
+        <div class='row'>
+            <div class='col-md'>
+                <div class="thumbnail">
+                    <a href="ValenceByGenre.html" class="card-link">
+                        <img src="Project_Images/Genre_Valence_Bar_Chart.png" alt="..." class="img-thumbnail">
+                    </a>
+                </div>
+                <br>
+            </div>
+            <div class='col-md'>
+                <div class="thumbnail">
+                    <a href="FurtherExploration.html" class="card-link">
+                        <img src="Project_Images/Changes in Timbre for All Ashore.png" alt="..." class="img-thumbnail">
+                    </a>
+                    <br>
+                </div>
+            </div>
+            </div>
+        </div>    
+    </div>
+</body>

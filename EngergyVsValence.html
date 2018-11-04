@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Energy vs Valence</title>
+  <!-- Bootstrap stylesheet -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body class='bg-dark'>
+    <!-- Nav Bar-->
+   <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Know Your Music</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!--'ml-auto' puts the list items on the right-->
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <!--Droppdown Link to Plots-->
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots <span class="sr-only">(current)</span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="EngergyVsValence.html">Engergy vs Valence</a>
+                        <a class="dropdown-item" href="DanceabilityVsTempo.html">Danceability vs Tempo</a>
+                        <a class="dropdown-item" href="ValenceByGenre.html">Valence by Genre</a>
+                        <a class="dropdown-item" href="FurtherExploration.html">Further Exploration</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+   </div>
+
+   <!--High-level sumamry info-->
+   <div class='container'>
+       <div class='row'>
+           <div class='col-md-9 bg-white'>
+                <h2 class="Display-4">Energy vs Valence</h2>
+                <h6 class='Display-6'>Country Music Ain't What It Used To Be...</h6>
+                <hr>
+                    <p>
+                        <img class="img-fluid inline-block" style="float:left" src="Project_Images/Energy vs Valence.png" alt="scatter plot"> 
+                        There was a positive correlation beween the energy of a song and its valence (how happy or sad the song is). This relationship is intuitive. The better a song makes you feel, the more it energizes you!
+                        <br>
+                        <br>
+                        However, there was one unexpected finding: Country music was signiificantly <em>happier</em> than the other songs. Country music used to be about sorrow and drinking away your problems; what happened? It seems the country stars of today are more about haviing a good time driving trucks and drinking beer!
+                    </p>
+               </div>
+
+               <!--Visualizations section on the-->
+               <div class='col-md-2 ml-auto bg-white'>
+                    <h3 class="Display-4">Visualizations</h3>
+                    <hr>
+                    <div class="thumbnail">
+                        <!-- Place the anchor tag here to cover both your caption and image -->
+                        <a href="index.html" class="card-link">
+                            <img src="Project_Images/Energy vs Valence.png" alt="..." class="img-thumbnail"  style="width: 200px;">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="thumbnail">
+                        <a href="index.html" class="card-link">
+                            <img src="Project_Images/Danceability vs Tempo.png" alt="..." class="img-thumbnail" style="width: 200px;">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="thumbnail">
+                        <a href="index.html" class="card-link">
+                            <img src="Project_Images/Genre_Valence_Bar_Chart.png" alt="..." class="img-thumbnail" style="width: 200px;">
+                        </a>
+                    </div>
+                    <br>
+                    <div class="thumbnail">
+                        <a href="index.html" class="card-link">
+                            <img src="Project_Images/Changes in Timbre for All Ashore.png" alt="..." class="img-thumbnail" style="width: 200px;">
+                        </a>
+                    </div>
+                    <br>
+                </div>
+            </div>    
+       </div>
+</body>
